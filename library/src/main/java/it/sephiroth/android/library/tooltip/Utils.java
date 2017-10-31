@@ -39,14 +39,14 @@ final class Utils {
                 case Log.ERROR:
                     Log.e(tag, String.format(format, args));
                     break;
-                case INFO:
+                case Log.INFO:
                     Log.i(tag, String.format(format, args));
                     break;
                 case Log.WARN:
                     Log.w(tag, String.format(format, args));
                     break;
                 default:
-                case VERBOSE:
+                case Log.VERBOSE:
                     Log.v(tag, String.format(format, args));
                     break;
             }
